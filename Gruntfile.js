@@ -110,7 +110,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '<%= paths.src %>',
-                        src: ['*.php','blog/wp-content/themes/wordpress-bootstrap-master/**', 'admin/**', 'assets/css/**','assets/downloads/**','assets/fonts/**','assets/img/**','assets/modal/**','template/**','subs/**','admin-3/**','auth/**','script/**','*.xml','*.txt','.htaccess','admin-3/.htpasswd','admin-3/.htaccess'  ],
+                        src: ['*.php','blog/**', 'admin/**', 'assets/css/**','assets/downloads/**','assets/fonts/**','assets/img/**','assets/modal/**','template/**','subs/**','admin-3/**','auth/**','script/**','*.xml','*.txt','.htaccess','admin-3/.htpasswd','admin-3/.htaccess'  ],
                         dest: '<%= paths.dist %>',
                         
                     }
