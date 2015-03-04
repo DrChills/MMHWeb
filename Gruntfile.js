@@ -265,8 +265,7 @@ module.exports = function (grunt) {
         'grunt-contrib-concat',
         'grunt-usemin',
         'grunt-filerev',
-        'grunt-ftp-deploy',
-        'grunt-uncss'
+        'grunt-ftp-deploy'
     ].forEach(grunt.loadNpmTasks);
 
     grunt.registerTask('default', 'serve');
