@@ -290,7 +290,7 @@ module.exports = function (grunt) {
         'filerev',
         'usemin',
         'htmlmin'
- 
+    
     ]);
 
     grunt.registerTask('upload', [
