@@ -1,0 +1,192 @@
+/******************
+Authers
+*/
+
+#authorarea{
+    background: #f0f0f0;
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+    width:100%;
+    overflow:hidden;
+    color: #333;
+    h3{
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    }
+    h3 a{
+    text-decoration:none;
+    color: #333;
+    font-weight: bold;
+    }
+    img{
+    margin: 0 10px 10px 0;
+    padding: 0px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    }
+    p{
+    color:#333;
+    margin:0;
+    padding:0px 10px 10px 10px;
+    }
+    p a{
+    color:#333;
+    }
+}
+.authorinfo{
+margin-top:10px;font-size: 13px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/**********************
+Widegt*/
+
+.widget img {padding: 3px;-webkit-box-shadow: 0 1px 5px #666;
+box-shadow: 0 1px 5px #666;
+-moz-transition: background 0.2s ease-in;
+-webkit-transition: background 0.2s ease-in;
+transition: background 0.2s ease-in;background-color:white}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meta {font-family: "museo300r";
+font-size: 14px;
+padding: 5px 0 8px;color:#999;
+background: url("/assets/img/divider-dashed.png") repeat-x 0 bottom;margin-bottom:20px
+}
+
+.post-meta-icon {margin-right: 3px;
+max-width: 18px;
+opacity: 0.7;
+padding: 0 !important;
+box-shadow: 0 0 !important;
+margin-top: -1px;}
+
+.post-comment-selection {float:right}
+
+.post img:hover, .widget img:hover {
+-moz-box-shadow: 0 1px 7px #666;
+-webkit-box-shadow: 0 1px 7px #666;
+box-shadow: 0 1px 7px #666;
+}
+
+.footer-post p {font-size:14px}
+
+.blog-post-title {font-family: "museo500r";
+font-size: 32px;
+color: black;
+letter-spacing: -1px;}
+
+.blog-title {color:white;margin-bottom:40px}
+.widget_recent_entries li {list-style:none; margin:10px 0}
+.widget_recent_entries ul {padding:0}
+#recent-posts-added .attachment-post-thumbnail {max-width: 50px;margin-right:10px; float:left}
+#recent-posts-added .attachment-post-thumbnail:hover {border:none}
+#recent-posts-added h2 {font-size:14px}
+.widgettitle {display: inline-block;margin-bottom: 5px;font-weight: bold;}
+.widget  {margin-bottom:30px}
+#subscribe-submit {float: left;}
+#subscribe-email {float: left;}
+
+
+
+#main {
+box-shadow: 0px 0px 5px 0px #999;
+padding: 0 30px;
+background: #FFF;
+z-index: 1;
+}
+#sidebar1 {background-color: rgba(255,255,255,1);
+background-image: url(/assets/img/pattern.png);
+margin-top: 40px;
+padding-top: 34px;
+padding-bottom:35px;
+border-radius: 0 0px 0 0;}
+
+
+
+#main
+{
+    padding:0 30px;
+    background:#FFF;
+}
+
+.contact-image
+{
+    background:url(/assets/img/business-row.jpg) fixed;
+    background-size:cover;
+    margin:0!important;
+    padding-top:140px;
+}
+.blog-top {max-width:784px; position:relative; z-index:2} 
+.blog
+{padding-top: 70px!important;
+    background:url(/assets/img/blog-bg.jpg) fixed;
+    background-size:cover;
+}
+.wpadminbar + .navbar {margin-top: 32px;}
+.attachment-wpbs-featured {margin-bottom:30px}
+
+.post img {padding: 9px;-webkit-box-shadow: 0 1px 5px #999;
+box-shadow: 0 1px 5px #999;
+-moz-transition: background 0.2s ease-in;
+-webkit-transition: background 0.2s ease-in;
+transition: background 0.2s ease-in;background-color:white}
+
+
+
+
+.lead {font-family: "museo300r";}
+
+.page-header {
+padding-bottom: 9px;
+margin: 20px 0 0px;background: url("/assets/img/divider-dashed.png") repeat-x 0 bottom;
+border-bottom: 0 !important;}
+
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+border: 1px solid rgba(127,127,127,0.6);
+width: 130px;
+height: 170px;
+margin: 5px;
+margin-left: 0px;
+vertical-align: top;
+background: #eee;
+box-shadow: 0px 0px 3px #aaa;
+}
+
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail > img, .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+box-shadow:none}
+
+
+
+#text-2 .textwidget {margin-left: -2px}
+
+
+
+
+.tab-by {color: #888;}
+.tab-by img {background:transparent}

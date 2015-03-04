@@ -1,0 +1,44 @@
+/***********************************
+* 404
+***********************************/
+.fouroooofour
+{
+    padding:0!important;
+    margin:0;
+}
+.fourofour
+{
+    background:url(../assets/img/blown_over_404.jpg);
+    width:100%;
+    height:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    h1
+    {
+        font-family:open_sanssemibold;
+        font-weight:900;
+        margin:0 auto;
+        top:50px;
+        font-size:60px;
+        text-align:center;
+        position:relative;
+        color:#FFF;
+        text-shadow:2px 2px 0 #aaa;
+        letter-spacing:-2px;
+    }
+    .fourofour p
+    {
+        font-family:open_sanssemibold!important;
+        margin:0 auto;
+        top:50px;
+        font-size:22px;
+        text-align:center;
+        position:relative;
+        color:#FFF;
+        text-shadow:2px 2px 0 #aaa;
+        letter-spacing:-1px;
+    }
+}

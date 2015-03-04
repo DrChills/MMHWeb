@@ -1,0 +1,141 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 week"
+ExpiresByType image/jpeg "access 1 week"
+ExpiresByType image/gif "access 1 week"
+ExpiresByType image/png "access 1 week"
+ExpiresByType text/css "access 1 week"
+ExpiresByType text/html "access 1 week"
+ExpiresByType application/pdf "access 1 week"
+ExpiresByType text/x-javascript "access 1 week"
+ExpiresByType application/x-shockwave-flash "access 1 week"
+ExpiresByType image/x-icon "access 1 week"
+ExpiresDefault "access 1 week"
+</IfModule>
+## EXPIRES CACHING ##
+
+
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+
+
+## hide .php extension
+# To externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{HTTP_HOST} !^blog\.midlandsmarqueehire\.com$ 
+RewriteRule ^(template)($|/) - [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R,L,NC]
+
+## To internally redirect /dir/foo to /dir/foo.php
+RewriteCond %{HTTP_HOST} !^blog\.midlandsmarqueehire\.com$ 
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [L]
+
+
+
+# Remove www. prefix
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+# redirect php index page to the root domain
+RewriteRule ^index\.php$ / [NC,R,L]
+
+Header unset ETag
+FileETag None
+
+
+AddType 'text/html; charset=UTF-8' html
+
+
+
+redirect 301 /Home.html   http://midlandsmarqueehire.com
+redirect 301 /www.alleycafe.co.uk   http://www.alleycafe.co.uk
+redirect 301 /blog/www.alleycafe.co.uk http://www.alleycafe.co.uk
+redirect 301 /blog/index   http://blog.midlandsmarqueehire.com
+redirect 301 /blog/   http://blog.midlandsmarqueehire.com
+redirect 301 /blog/?p=1   http://blog.midlandsmarqueehire.com
+
+
+
+redirect 301 http://blog.midlandsmarqueehire.com/weddings   http://midlandsmarqueehire.com/weddings
+redirect 301 http://blog.midlandsmarqueehire.com/business   http://midlandsmarqueehire.com/business
+redirect 301 http://blog.midlandsmarqueehire.com/party 		http://midlandsmarqueehire.com/party
+redirect 301 http://blog.midlandsmarqueehire.com/gallery 	http://midlandsmarqueehire.com/gallery
+redirect 301 http://blog.midlandsmarqueehire.com/estimate 	http://midlandsmarqueehire.com/estimate
+
+redirect 301 /blog/termsandconditions   http://midlandsmarqueehire.com/termsandconditions
+redirect 301 /contact-midlands-marquee-hire   http://midlandsmarqueehire.com/contact
+redirect 301 /contact/   http://midlandsmarqueehire.com/contact
+redirect 301 /price-guarantee-for-cheap-marquee-rental   http://midlandsmarqueehire.com/priceguarantee
+redirect 301 /marquee-hire-price-guarantee   http://midlandsmarqueehire.com/priceguarantee
+redirect 301 /Priceguarantee   http://midlandsmarqueehire.com/priceguarantee
+redirect 301 /Gallery   http://midlandsmarqueehire.com/gallery
+redirect 301 /gallery/   http://midlandsmarqueehire.com/gallery
+redirect 301 /gallery/   http://midlandsmarqueehire.com/gallery
+redirect 301 /marquee-image-gallery   http://midlandsmarqueehire.com/gallery
+
+
+redirect 301 /wedding-and-reception-stretch-marquee-rental   http://midlandsmarqueehire.com/weddings
+redirect 301 /marquees-for-weddings   http://midlandsmarqueehire.com/weddings
+
+redirect 301 /privateparty   http://midlandsmarqueehire.com/party
+redirect 301 /party-marquees  http://midlandsmarqueehire.com/party
+redirect 301 /partytents   http://midlandsmarqueehire.com/party
+redirect 301 /party-tents   http://midlandsmarqueehire.com/party
+redirect 301 /party-and-festival-marquee-hire   http://midlandsmarqueehire.com/party
+
+
+redirect 301 /east_midlands_marquee_hire   http://eastmidlands.midlandsmarqueehire.com/
+redirect 301 /eastmidlands   http://eastmidlands.midlandsmarqueehire.com/
+redirect 301 /westmidlands.html   http://westmidlands.midlandsmarqueehire.com/
+redirect 301 /westmidlands   http://westmidlands.midlandsmarqueehire.com/
+redirect 301 /nottingham   http://nottingham.midlandsmarqueehire.com/
+redirect 301 /nottingham/   http://nottingham.midlandsmarqueehire.com/
+
+
+redirect 301 /corporate   http://midlandsmarqueehire.com/business
+redirect 301 /corporate-hire   http://midlandsmarqueehire.com/business
+redirect 301 /business-and-corporate-marquee-rental  http://midlandsmarqueehire.com/business
+
+
+redirect 301 /marquee-price-list   http://midlandsmarqueehire.com/estimate
+
+
+
+
+redirect 301 /babybigtops   http://midlandsmarqueehire.com
+redirect 301 /stretchmarquee   http://midlandsmarqueehire.com
+redirect 301 /Rental.html   http://midlandsmarqueehire.com
+redirect 301 /caprimarquee   http://midlandsmarqueehire.com
+redirect 301 /tension-marquee-floor-plans   http://midlandsmarqueehire.com
+redirect 301 /links/links   http://midlandsmarqueehire.com
+redirect 301 /babybigtops.php   http://midlandsmarqueehire.com
+redirect 301 /stretch-tension-pop-up-marquee   http://midlandsmarqueehire.com
+redirect 301 /capri-marquee   http://midlandsmarqueehire.com
+redirect 301 /frametents   http://midlandsmarqueehire.com
+
+
+
+
+
+
+
+
+
+
+
+
+redirect 301 /brochures/TensionMarqueeWeddingBrochure_MidlandsMarqueeHire_web.pdf http://midlandsmarqueehire.com/downloads/TensionMarqueeWeddingBrochure_MidlandsMarqueeHire_web.pdf
+
+
+
+
+
+<FilesMatch "\.(ttf|ttc|otf|eot|woff)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>

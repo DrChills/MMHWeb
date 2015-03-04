@@ -1,0 +1,567 @@
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    #in_pricing .plan a.order
+
+    {
+
+        width:64%;
+
+    }
+
+    
+
+    .slide .info h2,.slide .info h2 *
+
+    {
+
+        font-size:30px!important;
+
+    }
+
+    
+
+    .slide#responsive .info
+
+    {
+
+        position:absolute;
+
+        top:170px;
+
+        right:6%;
+
+        width:25%;
+
+    }
+
+    
+
+    .slide#responsive .info .slide#tour .info a
+
+    {
+
+        font-size:15px;
+
+    }
+
+    
+
+    .navbar.transparent.navbar-fixed-top,.navbar.home.navbar-fixed-top
+
+    {
+
+        margin-bottom:-70px;
+
+        position:relative;
+
+        top:999px;
+
+    }
+
+}
+
+
+
+@media (max-width :767px) {
+
+.brochure-wrapper {margin-bottom:20px}
+.estimate-wrapper, .guide-wrapper {width:100%}
+.pro .plan {top:0!important}
+.estimate-wrapper, .brochure-wrapper, .guide-wrapper {margin:0 0 20px 0}
+
+    body
+
+    {
+
+        padding-left:0;
+
+        padding-right:0;
+
+    }
+
+    #in_pricing .feature {margin: 0!important;}
+
+    .container
+
+    {
+
+        max-width:100%;
+
+    }
+
+    
+
+    .marguee-top-bg
+
+    {
+
+        margin-top:50px;
+
+        position:relative;
+
+    }
+
+    
+
+    #in_pricing .pro .plan
+
+    {
+
+        top:0!important;
+
+    }
+
+    
+
+    h1,.h1
+
+    {
+
+        font-size:34px;
+
+    }
+
+    
+
+    #myCarousel .carousel-inner .item .fill .container
+
+    {
+
+        display:none;
+
+    }
+
+    
+
+    h2,.h2
+
+    {
+
+        font-size:27px;
+
+    }
+
+    
+
+    .price-page
+
+    {
+
+        padding-top:30px;
+
+    }
+
+    
+
+    .feature img
+
+    {
+
+        margin-bottom:15px;
+
+    }
+
+    
+
+    #footer .container
+
+    {
+
+        padding:0 20px;
+
+    }
+
+    
+
+    #features .feature.ss
+
+    {
+
+        text-align:left;
+
+    }
+
+    
+
+    /*Index Footer*/
+
+    #footer .footer_header
+
+    {
+
+        margin-left:0;
+
+    }
+
+    
+
+    #footer .footer_header h3
+
+    {
+
+        margin-left:0;
+
+    }
+
+    
+
+    #footer .testimonials
+
+    {
+
+        overflow:hidden;
+
+        margin-bottom:40px;
+
+    }
+
+    
+
+    #footer .testimonials .footer_header
+
+    {
+
+        margin-left:0;
+
+    }
+
+    
+
+    #footer .testimonials .wrapper
+
+    {
+
+        float:left;
+
+        width:100%;
+
+    }
+
+    
+
+    #footer .contact
+
+    {
+
+        margin:0;
+
+    }
+
+    
+
+    #footer .contact .footer_header
+
+    {
+
+        margin-left:0;
+
+    }
+
+    
+
+    #footer .contact input[type=text],#footer .contact textarea
+
+    {
+
+        float:left;
+
+        width:92%;
+
+    }
+
+    
+
+    /*Inner Footer*/
+
+    #footer .info .touch ul li
+
+    {
+
+        margin:0 30px 0 0;
+
+    }
+
+    
+
+    #footer .info .touch ul
+
+    {
+
+        margin:15px 0;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature .img_box img
+
+    {
+
+        max-width:100%;
+
+    }
+
+    
+
+    #partner-slider,#feature_slider
+
+    {
+
+        display:none;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature
+
+    {
+
+        margin-bottom:60px;
+
+    }
+
+    
+
+    #features .feature,.feature_wrapper_b
+
+    {
+
+        margin-bottom:30px;
+
+    }
+
+    
+
+    #business
+
+    {
+
+        padding-top:30px;
+
+    }
+
+    
+
+    #business .text-right
+
+    {
+
+        text-align:left;
+
+    }
+
+    
+
+    .test-bg
+
+    {
+
+        padding-top:30px!important;
+
+    }
+
+    
+
+    .section_header
+
+    {
+
+        margin-bottom:30px;
+
+    }
+
+    
+
+    .test-bg .text-right,#packages .text-right
+
+    {
+
+        text-align:left;
+
+    }
+
+    
+
+    #packages
+
+    {
+
+        margin-top:20px;
+
+    }
+
+    
+
+    #showcase .features_op1_row .last
+
+    {
+
+        margin-bottom:0;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature .img_box
+
+    {
+
+        text-align:center;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature .text h6
+
+    {
+
+        text-align:center;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature .img_box span.circle
+
+    {
+
+        top:38%;
+
+        left:48%;
+
+    }
+
+    
+
+    #showcase .features_op1_row .feature:hover .img_box
+
+    {
+
+        box-shadow:none;
+
+    }
+
+    
+
+    #in_pricing .charts_wrapp .plan
+
+    {
+
+        margin:0 auto 30px;
+
+        width:95%;
+
+    }
+
+    
+
+    #in_pricing .plan .wrapper
+
+    {
+
+        margin:0 auto;
+
+        text-align:center;
+
+    }
+
+    
+
+    #in_pricing .pro .plan
+
+    {
+
+        top:0;
+
+        width:95%;
+
+    }
+
+    
+
+    #in_pricing .standar .plan
+
+    {
+
+        float:none;
+
+    }
+
+    
+
+    #in_pricing .start p
+
+    {
+
+        margin-bottom:20px;
+
+    }
+
+    
+
+    #in_pricing .start a
+
+    {
+
+        display:block;
+
+        width:50%;
+
+        margin:0 auto;
+
+    }
+
+    
+
+    #clients .row
+
+    {
+
+        text-align:center;
+
+    }
+
+    
+
+    #clients .client
+
+    {
+
+        text-align:center;
+
+        margin-bottom:15px;
+
+        display:inline-block;
+
+        margin-right:10px;
+
+        width:auto;
+
+    }
+.mobile-subtitle {display: inline-block;}
+.check input {margin-top:0}
+
+
+.check, .equipment, .info-font, .set-price, .qty-spin, .itemtotal, .helpdiv {height:20px; padding:10px;height: 40px;
+padding: 10px;
+margin: 0;
+text-align: left!important;}
+
+.equipment, .info-font, .price-tag-wrapper, .set-price {
+margin-top: 0px;
+}
+.qty-spin input {margin-top: -8px;}
+
+}
+
+
+
+    
+
+
+
+

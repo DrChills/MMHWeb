@@ -1,0 +1,184 @@
+/************************
+* quote form
+*************************/
+form {
+  overflow: hidden;
+}
+
+form.right .options, form.right .sidebar {
+  float: right;
+}
+
+form.left .options, form.left .sidebar {
+  float: right;
+}
+.option {margin:0 auto;
+  background-color: #f7f7f8 ;max-width:1000px;
+}
+.option .row,.option .row {margin:0;}
+
+.whitey {width:152px; text-align: right; display: inline-block; padding-right:20px}
+
+.price,.vat,.main-total {text-align: left; display: inline-block}
+.title {padding: 0px;}
+.formsubhead {background:white; padding:5px 20px;margin-top:0px; margin-bottom: 0px;color: #aaa;}
+.sub-option {padding:3px 0;
+border-bottom: 1px solid #fff;}
+
+.title{
+border-bottom: 1px solid #ddd;padding:10px 0px;}
+
+.title {font-weight: bold; color: #aaa}
+.options {width:100%!important;}
+
+.submittext {margin-top:20px}
+
+.equipment, .info-font, .price-tag-wrapper, .set-price {margin-top:9px;}
+
+.sidebar {padding: 0 69px 0 10px;
+float: right;}
+.summary {display:none;}
+.config {display:none;}
+.price-tag-wrapper {display:block!important;}
+.sub-total-span, .vat-span{font-size:15px; font-weight: 300;}
+.total-span  {font-size:20px; font-weight: 600}
+
+.sub-total-span {padding:20px 0 5px}
+.vat-span {padding:5px 0;}
+.total-span {padding:5px 0 10px;}
+
+.whitey {white-space: nowrap;}
+
+.equipment {font-size: 15px;}
+.i-spinner {padding:6px;margin: 0px;text-align: center;}
+
+.info-font {font-size: 14px;
+    color: #777;
+vertical-align: bottom;
+position: relative;
+line-height: 23px;}
+
+.yarpp-related img {width:auto; padding:0}
+
+
+.input-group-btn {
+font-size: 20px;
+}
+
+.equipment {font-weight:bold;}
+
+.check input {width: 15px; height: 15px;margin-top: 11px; }
+.qty-spin {text-align:center;}
+.qty-spin input {width:50%;line-height: 16px;text-align:center;
+margin-top: 2px;padding: 7px 6px 5px;}
+.check {text-align:center; }
+.set-price {text-align:center;font-size: 14px;padding:0;
+color: #777;
+vertical-align: bottom;
+position: relative;
+line-height: 23px;}
+.price-tag {font-weight:bold;}
+.cap-form {padding:4px 10px;}
+.guest-block {background-image: url(/assets/img/Marquee-top-bg.png);
+background-size: cover;
+/* height: 137px; */
+padding-top: 79px;
+padding-bottom: 6px;
+max-width: 1000px;
+margin: 0 auto;
+float: none;}
+.option {box-shadow: 0px 0px 5px #aaa;}
+.helpdiv .glyphicon {color: #ddd;
+margin-top: 9px;cursor: pointer;}
+.helpdiv .glyphicon:hover, .helpdiv a:hover {color: #777; text-decoration: none; border:none;}
+.helpdiv {text-align: center;}
+
+.qty-spin input {font-weight: bold}
+
+.mobile-subtitle {display:none;font-weight: bold;
+color: #aaa;background-color: #f7f7f8; padding: 0px; text-align:right;
+width: 75px;
+float: left;
+margin-left: -15px;padding-right:10px}
+
+
+
+.disableme {color:black} 
+
+.disableme:disabled {
+cursor: default;color: #aaa;
+}
+.disableme:disabled::-webkit-input-placeholder {
+   color: #aaa!important;
+}
+
+.disableme::-webkit-input-placeholder {
+   color: #aaa!important;
+}
+
+.disableme:-moz-placeholder { /* Firefox 18- */
+   color: #aaa!important; 
+}
+
+.disableme::-moz-placeholder {  /* Firefox 19+ */
+    color: #aaa!important; 
+}
+
+.disableme:-ms-input-placeholder {  
+   color: #aaa!important;
+}
+.helpdiv .glyphicon {
+color: #aaa!important;
+margin-top: 9px;
+cursor: pointer;
+}
+.submit-btn {font-size: 20px!important;
+padding: 10px 20px!important;
+float: right!important;
+margin: 20px!important;}
+
+.helpdiv .glyphicon:hover {
+color: blue!important;
+margin-top: 9px;
+cursor: pointer;
+}
+
+.send-est {background:white;}
+
+#profileForm .form-control-feedback {
+    top: 25px;
+    right: 0px;
+}
+.total-here {background: white;
+margin-bottom: 30px;
+}
+.shadowmetable {box-shadow: 0px 0px 5px #aaa;}
+
+.total-here {
+background: white;
+margin-bottom: 0px!important;
+padding-bottom:30px;
+}
+.form-horizontal .form-group {margin:0!important;}
+
+#ften, #feleven, #twelve, #fthirteen, #ffourteen {padding:3px 5px;}
+#fthirteen {
+ width: 164px;
+ float: left; }
+.cal-addon {
+display: inline-block!important;
+padding: 8px 24px 7px 10px!important;
+width: 20px!important;
+border: 1px solid #aaa!important;
+float: right;
+left: -1px;
+position: relative;
+}
+.datepicker.dropdown-menu {
+margin-top: -93px;}
+.total-here {
+width: 100%}
+.total-here:after {content:""; clear:both}
+.datepicker-dropdown.datepicker-orient-bottom:after, .datepicker-dropdown.datepicker-orient-bottom:before {top: auto;}
+
+.form-horizontal .has-feedback .form-control-feedback {top: 24px!important;right: 0px!important;}
