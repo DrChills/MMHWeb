@@ -305,6 +305,3 @@ module.exports = function (grunt) {
 
 
 // Added a comment to test branching
-
-// hell why not crazy with these comments
-//and again

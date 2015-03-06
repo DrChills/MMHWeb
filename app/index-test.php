@@ -27,19 +27,19 @@ margin-bottom: 30px;}
 
 body {
 padding-top: 70px !important;
-background: url(http://midlandsmarqueehire.com/assets/img/blog-bg.jpg) fixed;
+background: url(/assets/img/blog-bg.jpg) fixed;
 background-size: cover;
 }
 
 .navbar-default.sticky:before {width: 60px;
 content: "";
-background: url(/assets/img/navbar-left.365.png);
+background: url(/assets/img/navbar-left.png);
 height: 70px;
 position: absolute;
 left: -60px;}
 .navbar-default.sticky:after {width: 60px;
 content: "";
-background: url(/assets/img/navbar-right.7ce.png);
+background: url(/assets/img/navbar-right.png);
 height: 70px;
 position: absolute;top: 0px;
 right: -60px;}
@@ -69,8 +69,7 @@ color: #1880ad;}
 padding: 4px 8px 6px;
 }body {
 padding-top: 10px!important;
-}.estimate-wrapper {
-margin: 0 -42px 0 -45px;}
+}
 #myCarousel {margin-bottom:30px;}
 .fill {padding-bottom:45%;}
 .carousel, .item, .active, .carousel-inner {padding-bottom:43.5%;}
@@ -90,7 +89,7 @@ box-shadow: 0px 0px 3px #aaa;}
 .frame .tr {position: absolute;top:-15px;right:-15px;}
 .frame .bl {position: absolute;bottom:-15px;left:-15px;}
 .frame .br {position: absolute;bottom:-15px;right:-15px;}
-.footer-grass {background:url(/assets/img/footer-grass.ba4.png); height:20px; width:100%;margin-top:-30px;}
+.footer-grass {background:url(/assets/img/footer-grass.png); height:20px; width:100%;margin-top:-30px;}
 .footer .li {border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 border-top: 1px solid rgba(255, 255, 255, 0.05);}
 #in_pricing .plan h4,#in_pricing .plan h3 {font-family: "museo700r";
@@ -101,7 +100,7 @@ margin: 0 0 5px;
 line-height: 25px;
 }
 #in_pricing .plan p {margin-bottom:0;}
-.website-head {background-image: url(/assets/img/Marquee-top-bg.cc0.png);
+.website-head {background-image: url(/assets/img/headbg.svg);
 width: 100%;
 height: 0;
 padding-bottom: 10%;
@@ -158,23 +157,23 @@ padding-right: 20px;
  
 </div>
 </div>
-        <nav class="navbar navbar-default navbar-fixed-top sticky" role="navigation" style="background:url(/assets/img/navbar.be3.png);height: 68px; background: url(/assets/img/navbar-repeat.923.png);margin-bottom: -23px;">
+        <nav class="navbar navbar-default navbar-fixed-top sticky" role="navigation" style="background:url(/assets/img/navbar.png);height: 68px; background: url(/assets/img/navbar-repeat.png);margin-bottom: -23px;">
                     <div class="navbar-header">
                         <a class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#bs-example-navbar-collapse-1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-left nav-pills">
                             <li>
-                                <a href="http://midlandsmarqueehire.com/weddings">Weddings</a>
+                                <a href="/weddings">Weddings</a>
                             </li>
                             <li>
-                                <a href="http://midlandsmarqueehire.com/business">Corporate Events</a>
+                                <a href="/business">Corporate Events</a>
                             </li>
                             <li>
-                                <a href="http://midlandsmarqueehire.com/party">Parties &amp; Festivals</a>
+                                <a href="/party">Parties &amp; Festivals</a>
                             </li>
                             <li>
-                                <a href="http://midlandsmarqueehire.com/gallery">Gallery</a>
+                                <a href="/gallery">Gallery</a>
                             </li>
                         </ul>
                         <ul class="nav navbar-right nav-pills">
@@ -183,10 +182,10 @@ padding-right: 20px;
                                 <a href="http://blog.midlandsmarqueehire.com">Blog</a>
                             </li>
                             <li>
-                                <a href="http://midlandsmarqueehire.com/contact">Contact us</a>
+                                <a href="/contact">Contact us</a>
                             </li>
                             <li class="attn">
-                                <a href="http://midlandsmarqueehire.com/estimate"><img src="/assets/img/instant-estiamte.a48.png" style="width:120px;height:120px"></a>
+                                <a href="/estimate"><img src="/assets/img/instant-estiamte.png" style="width:120px;height:120px"></a>
                             </li>
                         </ul>
                  
@@ -214,27 +213,27 @@ padding-right: 20px;
     <div id="myCarousel" class="carousel slide">
         <div class="frame">
             <div class="tl">
-                <img src="/assets/img/carouselframe-tl.c6d.png" width="68" height="68" alt="">
+                <img src="/assets/img/carouselframe-tl.png" width="68" height="68" alt="">
             </div>
             <div class="tr">
-                <img src="/assets/img/carouselframe-tr.281.png" width="68" height="68" alt="">
+                <img src="/assets/img/carouselframe-tr.png" width="68" height="68" alt="">
             </div>
             <div class="bl">
-                <img src="/assets/img/carouselframe-bl.ac6.png" width="68" height="68" alt="">
+                <img src="/assets/img/carouselframe-bl.png" width="68" height="68" alt="">
             </div>
             <div class="br">
-                <img src="/assets/img/carouselframe-br.c88.png" width="68" height="68" alt="">
+                <img src="/assets/img/carouselframe-br.png" width="68" height="68" alt="">
             </div>
         </div>
         <div class="carousel-inner">
             <div class="item">
-                <div class="fill ctwo" style="background-image:url('assets/img/tensionmarquee.cd6.jpg');"></div>
+                <div class="fill ctwo" style="background-image:url('assets/img/tensionmarquee.jpg');"></div>
             </div>
             <div class="item active">
-                <div class="fill ctwo" style="background-image:url('assets/img/DSC_0118_2.6e9.jpg');"></div>
+                <div class="fill ctwo" style="background-image:url('assets/img/DSC_0118_2.jpg');"></div>
             </div>
             <div class="item">
-                <div class="fill cthree" style="background-image:url('assets/img/DSC005541.99f.jpg');"></div>
+                <div class="fill cthree" style="background-image:url('assets/img/DSC005541.jpg');"></div>
             </div>
         </div>
     </div>
@@ -248,14 +247,11 @@ padding-right: 20px;
 <!-- Pricing Option -->
     <div id="in_pricing" class="homepage-pricing" style="margin:0!important">
            <?php include("template/pricing.php"); ?>
-          
            <div class="row">
-            <div class="col-md-12">
-                <img src="/assets/img/goldswirl-long.da3.png" class="longswirl">
+                <div class="col-md-12">
+                    <img src="/assets/img/goldswirl-long.png" class="longswirl">
+                </div>
             </div>
-        </div>
-
-
     </div>
 
 
@@ -284,7 +280,7 @@ padding-right: 20px;
                         Perfect Weddings
                     </h3>
                     <div class="img_box">
-                        <a href="/weddings.php"><img alt="marquee with fairy lights" src="assets/img/stretch_tent_at_dusk_with_fairy_lights.781.jpg"> </a>
+                        <a href="/weddings.php"><img alt="marquee with fairy lights" src="assets/img/stretch_tent_at_dusk_with_fairy_lights.jpg"> </a>
                     </div>
                     <div class="text">
                         <p>
@@ -300,7 +296,7 @@ padding-right: 20px;
                         Corporate events
                     </h3>
                     <div class="img_box">
-                        <a href="/business.php"><img alt="blue skies marquee" src="assets/img/blue_sky_tension_marquee.957.jpg"> </a>
+                        <a href="/business.php"><img alt="blue skies marquee" src="assets/img/blue_sky_tension_marquee.jpg"> </a>
                     </div>
                     <div class="text">
                         <p>
@@ -316,7 +312,7 @@ padding-right: 20px;
                         Parties and Festivals
                     </h3>
                     <div class="img_box">
-                        <a href="party.php"><img alt="stretch tent" src="assets/img/stretch_tent_in_a_bespoke_set_up.873.jpg"> </a>
+                        <a href="party.php"><img alt="stretch tent" src="assets/img/stretch_tent_in_a_bespoke_set_up.jpg"> </a>
                     </div>
                     <div class="text">
                         <p>
@@ -332,7 +328,7 @@ padding-right: 20px;
      
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/assets/img/goldswirl-long.da3.png" class="longswirl" >
+                    <img src="/assets/img/goldswirl-long.png" class="longswirl" >
                 </div>
             </div><!-- Features Row -->
             <div class="row">
@@ -343,7 +339,7 @@ padding-right: 20px;
 
                     <div class="row front-sep">
                         <div class="col-md-5">
-                            <img alt="marquee with fairy lights" src="assets/img/marquee-structure-new.154.jpg">
+                            <img alt="marquee with fairy lights" src="assets/img/marquee-structure-new.jpg">
                         </div>
                         <div class="col-md-7">
                             <div class="text">
@@ -358,7 +354,7 @@ padding-right: 20px;
                     </div>
                     <div class="row front-sep">
                         <div class="col-md-5">
-                            <img alt="blue skies marquee" src="assets/img/marquee-funiture-new.6b5.jpg">
+                            <img alt="blue skies marquee" src="assets/img/marquee-funiture-new.jpg">
                         </div>
                         <div class="col-md-7">
                             <div class="text">
@@ -373,7 +369,7 @@ padding-right: 20px;
                     </div>
                     <div class="row front-sep">
                         <div class="col-md-5">
-                            <img alt="stretch tent" src="assets/img/marquee-lighting-new.91a.jpg">
+                            <img alt="stretch tent" src="assets/img/marquee-lighting-new.jpg">
                         </div>
                         <div class="col-md-7">
                             <div class="text">
@@ -394,7 +390,7 @@ padding-right: 20px;
 
    <div class="row">
             <div class="col-md-12">
-                <img src="/assets/img/goldswirl-long.da3.png" class="longswirl">
+                <img src="/assets/img/goldswirl-long.png" class="longswirl">
             </div>
         </div>
 
@@ -405,7 +401,7 @@ padding-right: 20px;
             <div class="col-md-4">
                 <h4>
                     Marquee Hire Locations
-                </h4><img class="pull-right" src="assets/img/standardimages/map.bd6.png" style="max-width:101px" height="179" width="101" alt="Map of uk midlands marquee hire services" title="map of areas covered for marquee hire">
+                </h4><img class="pull-right" src="assets/img/standardimages/map.png" style="max-width:101px" height="179" width="101" alt="Map of uk midlands marquee hire services" title="map of areas covered for marquee hire">
                 <p>
                     Midlands Marquee Hire are based in the centre of <a href="nottingham" title="nottingham marquee hire">Nottingham</a> and cover all areas of British main land. We offer cheaper rates for the <a href="eastmidlands" title="east midlands marquee hire">East Midlands</a> and <a href="westmidlands" title="west midlands marquee hire">West Midlands</a> areas, any time of the year. We are dedicated to providing a tailored, fast effective solution to any event.
                 </p>
@@ -422,7 +418,7 @@ padding-right: 20px;
                 </h4>
                 <p>
                     At Midlands Marquee Hire we understand that budget limitations can often provide a stumbling block for hiring a marquee for an event. That is why we offer:
-                </p><a href="priceguarantee" title="marquee Price guarantee"><img src="assets/img/standardimages/Free_Ribbon_Set.e81.png" height="127" width="278" alt="we'll beat any written quotation for a marquee of the same size by ten percent" title="we'll beat any written quotation for a marquee of the same size by ten percent"></a>
+                </p><a href="priceguarantee" title="marquee Price guarantee"><img src="assets/img/standardimages/Free_Ribbon_Set.png" height="127" width="278" alt="we'll beat any written quotation for a marquee of the same size by ten percent" title="we'll beat any written quotation for a marquee of the same size by ten percent"></a>
                 <p>
                     *We will beat any written quotation for a same-size marquee form any other company by 10%. We will also beat any written quotation for a same-size <em>stretch</em> marquee by 50%! Please read our <a href="priceguarantee" title="marquee Price guarantee">price guarantee</a> page for more info
                 </p>

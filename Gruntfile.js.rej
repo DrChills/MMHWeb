@@ -1,0 +1,12 @@
+diff a/Gruntfile.js b/Gruntfile.js	(rejected hunks)
+@@ -304,4 +304,7 @@
+ 
+ 
+ 
+-// Added a comment to test branching
+\ No newline at end of file
++// Added a comment to test branching
++
++// hell why not crazy with these comments
++//and again
+\ No newline at end of file
